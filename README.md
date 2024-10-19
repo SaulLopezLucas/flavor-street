@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src='src/assets/myGif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWpveG1sanZnNHo4cnNtOHNkejEycXdzZXFkaGpndWZtamRrZXU0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T4x8McOHKtQBbBUSl6/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 GIF created with KAP
