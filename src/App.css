@@ -1,0 +1,85 @@
+/* Container for the entire recipe list */
+.recipe-container {
+  display: flex;                     /* Use flexbox for centering */
+  flex-direction: column;            /* Stack items vertically */
+  align-items: center;               /* Center horizontally */
+  justify-content: center;           /* Center vertically */
+  text-align: center;                /* Center-aligns the text */
+  margin: 0 auto;                   /* Center the container */
+}
+
+/* Main header style */
+.header {
+  font-size: 36px;                  /* Larger font size for the main header */
+  margin: 20px 0;                   /* Margin for spacing */
+  color: #333;                      /* Text color */
+}
+
+/* Subheader style */
+.subheader {
+  font-size: 24px;                  /* Font size for the subheader */
+  margin-bottom: 40px;              /* Margin below the subheader */
+  color: #666;                      /* Slightly lighter text color */
+}
+
+/* Main grid layout */
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Fixed 4 columns for symmetry */
+  gap: 25px;
+  padding: 50px;
+  margin: 0 auto;                   /* Center the grid */
+}
+
+/* Individual recipe card */
+.recipe-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect on card */
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+/* Recipe image */
+.recipe-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Recipe title */
+.recipe-title {
+  padding: 15px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+/* Summary statistics style */
+.summary-statistics {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc; /* Light border for separation */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.summary-statistics h3 {
+  margin-bottom: 10px; /* Margin below the heading */
+}
+
+.summary-statistics ul {
+  list-style-type: none; /* Remove default list style */
+  padding: 0; /* Remove padding */
+}
+
+.summary-statistics li {
+  margin: 5px 0; /* Space between list items */
+  font-size: 16px; /* Font size for list items */
+  color: #333; /* Text color */
+}
